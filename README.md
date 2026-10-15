@@ -61,7 +61,7 @@ cargo test --locked
 cargo clippy --locked --all-targets -- -D warnings
 ```
 
-GitHub Actions runs these checks on macOS for pushes and pull requests.
+Run these checks locally before committing changes.
 
 - `src/main.rs`: window, UI, keyboard input, and animation loop.
 - `src/game.rs`: game state and physics, stepped at 120 Hz independently of display refresh rate.
