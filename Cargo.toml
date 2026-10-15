@@ -1,0 +1,11 @@
+[package]
+name = "gpui-testing"
+version = "0.1.0"
+edition = "2024"
+publish = false
+description = "A local two-player Pong game built with GPUI"
+license = "MIT"
+
+[dependencies]
+# Compile Metal shaders at runtime so standalone macOS Command Line Tools suffice.
+gpui = { version = "=0.2.2", features = ["runtime_shaders"] }

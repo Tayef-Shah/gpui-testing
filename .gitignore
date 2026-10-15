@@ -1,0 +1,16 @@
+# Rebuilt binaries, app bundles, and generated intermediate files
+/target/
+/dist/
+
+# macOS metadata and local editor settings
+.DS_Store
+._*
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
